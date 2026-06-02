@@ -1,9 +1,10 @@
 Setup Steps
 1. Clone the repo and install backend dependencies
+
 cd Backend
 pip install flask python-dotenv pip-system-certs openai flask-cors
 
-2. Set your OpenAI API key
+3. Set your OpenAI API key
 Create a file Backend/.env:
 
 OPENAI_API_KEY=your_key_here
